@@ -3,7 +3,7 @@
 import string
 import random
 
-def generate_password(length):
+def generate_password(length=10):
     # Define the character sets to use in the password
     lowercase = string.ascii_lowercase
     uppercase = string.ascii_uppercase
